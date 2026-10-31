@@ -1,0 +1,28 @@
+
+# R workspace and history
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio local state
+.Rproj.user/
+
+# Local environment variables and credentials
+.Renviron
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Generated outputs
+*.log
+*.pdf
+
+# Keep example environment templates
+!.env.example
