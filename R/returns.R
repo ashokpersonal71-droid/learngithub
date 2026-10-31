@@ -3,7 +3,7 @@
 # Exercise 1: Calculating Stock Returns
 
 # Stock prices across five trading days
-prices <- c(100, 105, 103, 108, 112)
+prices <- c(100, 105, 103, 108, 112, 115)
 
 # Calculate simple daily returns
 returns <- diff(prices) / head(prices, -1)
