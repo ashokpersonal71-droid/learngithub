@@ -20,3 +20,8 @@ cat("Average daily return:",
 risk <- sd(returns)
 cat("Daily volatility:",
     round(risk * 100, 2), "%\n")
+# Total holding-period return
+total_return <- tail(prices, 1) / prices[1] - 1
+
+cat("Total return:",
+    round(total_return * 100, 2), "%\n")
